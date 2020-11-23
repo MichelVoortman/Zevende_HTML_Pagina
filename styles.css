@@ -1,0 +1,130 @@
+
+.yellow {
+    background-color: #FEFE33;
+}
+
+body {
+    font-family: Impact, sans-serif;
+    background-color: #EFD4F7;
+}
+
+h1 {
+    color: #8601AF;
+    font-size: 80px;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #343409;
+    font-size: 60px;
+    text-decoration: underline;   
+}
+
+ul {
+    color: #343409;
+    font-size: 40px;
+    
+}
+
+
+p {
+    color: #343409;
+    font-size: 20px;
+    
+}
+
+main {
+    background-color: #FEFE33;
+}
+
+nav {
+    font-size: 40px; 
+}
+
+footer {
+    background-color: #343409;
+}
+footer a {
+    color:#AF01E4;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #CF34FE;
+    font-weight: bold;
+}
+
+.width {
+    width: 60%;
+    margin: auto;
+    border: 10px double #1A1A05;
+    margin-bottom: 5px;
+}
+
+#pic {
+    width: 35%;
+    display: block;
+    margin: auto;
+    border: 3px solid black;
+}
+
+/* blijkbaar werkt een afbeelding centreren alleen met display: block in combinatie met margin: auto */
+
+.pad {
+    padding-top: 3px;
+    padding-right: 6px;
+    padding-bottom: 5px;
+    padding-left: 4px;
+/*  padding: 3px 6px 5px 4px;   */
+}
+
+.text {
+    text-align: center;
+    
+}
+
+ul {
+    display:inline-block;
+}
+
+/* blijkbaar werkt een tabel centreren alleen met display: inline-block in combinatie met text-align: center */
+
+nav ul {
+    display: block;
+    color: #AF01E4;
+    text-align: left;
+}
+
+.form {
+    background-color: #EFD4F7
+}
+
+.form input {
+    display: block;
+}
+
+/* Ik heb hier geen class gebruikt, want zo kan het ook. */
+
+@media (min-width: 1024px) {
+    body, .form {
+            background-color: #d48dd6;
+            }
+            
+    h2, ul, p {
+            color: black; 
+                
+            }
+    h1 {
+            font-size: 70px;
+            }
+    h2 {
+            font-size: 50px;
+            }
+    ul {
+            font-size: 35px;
+            }
+    h1, h2, ul {
+            line-height: 120%;
+            }    
+           
+        }  
